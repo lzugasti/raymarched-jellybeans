@@ -1,0 +1,183 @@
+{
+    "resolution": [640, 480],
+    "AA": { "jitter": false, "samples": 1 },
+    "ambient": [0.2, 0.2, 0.2],
+    "camera": {
+        "position": [0.0, 3.5, 6.0],
+        "lookAt": [0.0, 2.0, 0.0],
+        "up": [0.0, 1.0, 0.0],
+        "fov": 60.0       
+    },
+  "materials": [
+    {
+      "name": "yellow",
+      "ID": 0,
+      "diffuse": [ 1.0, 0.88, 0.36 ],
+      "specular": [ 0.5, 0.5, 0.5 ],
+      "hardness": 100
+    },
+    {
+      "name": "orange",
+      "ID": 1,
+      "diffuse": [ 0.95, 0.62, 0.1 ],
+      "specular": [ 0.5, 0.5, 0.5 ],
+      "hardness": 100
+    },
+    {
+      "name": "red",
+      "ID": 2,
+      "diffuse": [ 0.86, 0.21, 0.21 ],
+      "specular": [ 0.5, 0.5, 0.5 ],
+      "hardness": 100
+    },
+    {
+      "name": "purple",
+      "ID": 3,
+      "diffuse": [ 0.69, 0.12, 0.41 ],
+      "specular": [ 0.5, 0.5, 0.5 ],
+      "hardness": 100
+    },
+    {
+      "name": "blue1",
+      "ID": 4,
+      "diffuse": [ 0.69, 0.12, 0.41 ],
+      "specular": [ 0.5, 0.5, 0.5 ],
+      "hardness": 100
+    },
+    {
+      "name": "blue2",
+      "ID": 5,
+      "diffuse": [ 0.31, 0.83, 0.77 ],
+      "specular": [ 0.5, 0.5, 0.5 ],
+      "hardness": 100
+    },
+    {
+      "name": "blue3",
+      "ID": 6,
+      "diffuse": [ 0.28, 0.56, 0.69 ],
+      "specular": [ 0.5, 0.5, 0.5 ],
+      "hardness": 100
+    },
+    {
+      "name": "blue4",
+      "ID": 7,
+      "diffuse": [ 0.33, 0.24, 0.52 ],
+      "specular": [ 0.5, 0.5, 0.5 ],
+      "hardness": 100
+    },
+    {
+      "name": "black",
+      "ID": 8,
+      "diffuse": [ 0.0, 0.0, 0.0 ],
+      "specular": [ 0.0, 0.0, 0.0 ],
+      "hardness": 0
+    },
+    {
+      "name": "white",
+      "ID": 9,
+      "diffuse": [ 1.0, 1.0, 1.0 ],
+      "specular": [ 0.0, 0.0, 0.0 ],
+      "hardness": 0
+    }
+  ],
+  "objects": [
+    {
+      "name": "plane",
+      "type": "plane",
+      "normal": [ 0.0, 1.0, 0.0 ],
+      "position": [ 0.0, 0.0, 0.0 ],
+      "materials": [ 8, 9 ],
+      "mirrorReflection": true,
+      "mirrorReflectionIntensity": 0.7
+    },
+    {
+      "name": "metaball1",
+      "type": "metaball",
+      "radius": 1.0,
+      "position": [ -3.5, 2.5, 1.5 ],
+      "position2": [ -3.5, 3.5, 1.5 ],
+      "materials": [ 0 ],
+      "mirrorReflection": true,
+      "mirrorReflectionIntensity": 0.2
+    },
+    {
+      "name": "metaball2",
+      "type": "metaball",
+      "radius": 1.0,
+      "position": [ -2.8, 2.3, -1.5 ],
+      "position2": [ -2.8, 3.7, -1.5 ],
+      "materials": [ 1 ],
+      "mirrorReflection": true,
+      "mirrorReflectionIntensity": 0.2
+    },
+    {
+      "name": "metaball3",
+      "type": "metaball",
+      "radius": 1.0,
+      "position": [ -2.1, 2.2, -4.5 ],
+      "position2": [ -2.1, 3.9, -4.5 ],
+      "materials": [ 2 ],
+      "mirrorReflection": true,
+      "mirrorReflectionIntensity": 0.2
+    },
+    {
+      "name": "metaball4",
+      "type": "metaball",
+      "radius": 1.0,
+      "position": [ -1.4, 2.0, -7.5 ],
+      "position2": [ -1.4, 4.1, -7.5 ],
+      "materials": [ 3 ],
+      "mirrorReflection": true,
+      "mirrorReflectionIntensity": 0.2
+    },
+    {
+      "name": "metaball5",
+      "type": "metaball",
+      "radius": 1.0,
+      "position": [ 3.5, 2.5, 1.5 ],
+      "position2": [ 3.5, 3.5, 1.5 ],
+      "materials": [ 4 ],
+      "mirrorReflection": true,
+      "mirrorReflectionIntensity": 0.2
+    },
+    {
+      "name": "metaball6",
+      "type": "metaball",
+      "radius": 1.0,
+      "position": [ 2.8, 2.3, -1.5 ],
+      "position2": [ 2.8, 3.7, -1.5 ],
+      "materials": [ 5 ],
+      "mirrorReflection": true,
+      "mirrorReflectionIntensity": 0.2
+    },
+    {
+      "name": "metaball7",
+      "type": "metaball",
+      "radius": 1.0,
+      "position": [ 2.1, 2.2, -4.5 ],
+      "position2": [ 2.1, 3.9, -4.5 ],
+      "materials": [ 6 ],
+      "mirrorReflection": true,
+      "mirrorReflectionIntensity": 0.2
+    },
+    {
+      "name": "metaball8",
+      "type": "metaball",
+      "radius": 1.0,
+      "position": [ 1.4, 2.0, -7.5 ],
+      "position2": [ 1.4, 4.1, -7.5 ],
+      "materials": [ 7 ],
+      "mirrorReflection": true,
+      "mirrorReflectionIntensity": 0.2
+    }
+  ],
+    "lights": [
+        {
+            "name": "light1",
+            "type": "point",
+            "position": [10.0, 7.0, 10.0],
+            "colour": [1.0, 0.98, 0.76],
+            "power": 0.9
+        }
+    ]
+}

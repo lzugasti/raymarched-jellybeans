@@ -1,0 +1,34 @@
+{
+    "resolution": [512, 512],
+    "AA": { "jitter": false, "samples": 1 },
+    "ambient": [0.1, 0.1, 0.1],
+    "camera": {
+        "position": [0.0, 0.0, 8.0],
+        "lookAt": [0.0, 0.0, 0.0],
+        "up": [0.0, 1.0, 0.0],
+        "fov": 45.0       
+    },
+    "materials": [
+        {
+            "name": "red", "ID": 0, 
+            "diffuse": [1.0, 0.0, 0.0], "specular": [0.8, 0.8, 0.8],
+            "hardness": 32
+        }
+    ],    
+    "objects": [
+        {
+            "name": "metaball1", "type": "metaball",
+            "radius": 1.0, "position": [-0.9, 0.0, -2.0], "position2": [0.9, 0.0, -2.0],
+            "materials": [0]
+        }        
+    ],
+    "lights": [
+        {
+            "name": "light",
+            "type": "point",
+            "position": [0.0, 5.0, 5.0],
+            "colour": [1.0, 1.0, 1.0],
+            "power": 1.0
+        }
+    ]
+}
